@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurantes</title>
+    <link rel="stylesheet" href="../css/web.css">
+    <script src="script.js"></script>
+
+</head>
+<body>
+
+<header>
+    <h1>Restaurantes en La Gomera</h1>
+</header>
+
+<main>
+
+    <h2>Los mejores restaurantes que puedes visitar</h2>
+
+    <button onclick="ocultarImagenes()">Ocultar fotos</button>
+    <button onclick="mostrarImagenes()">Mostrar fotos</button>
+
+    <section class="pueblos">
+
+        <div>
+            <img src="../imag/efigenia.jpg">
+            <h3>Casa Efigenia</h3>
+            <p>Comida tradicional gomera famoso por su potaje de berros y por ser vegetariano, llevado por la propia Efigenia desde hace muchísimos años.</p>
+        </div>
+
+        <div>
+            <img src="../imag/roque.jpg">
+            <h3>Roque Blanco</h3>
+            <p>Especialidad en carnes, preciosas vistas al Roque Blanco, se encuentra en Las Rosas.</p>
+        </div>
+
+        <div>
+            <img src="../imag/laguna.jpg">
+            <h3>La Laguna Grande</h3>
+            <p>Este Restaurante es un referente de la cocina tradicional gomera, y punto de paso obligatorio para los que deciden disfrutar de los senderos circulares que comienzan y terminan en la zona de Laguna Grande.</p>
+        </div>
+
+    </section>
+
+    <h2>¿Cuál te apetece hoy?</h2>
+
+    <input type="text" id="restauranteInput" placeholder="Escribe un restaurante">
+    <button onclick="mostrarEleccion()">Elegir</button>
+
+    <p id="eleccion"></p>
+
+</main>
+<script src="../js/script.js"></script>
+</body>
+</html>

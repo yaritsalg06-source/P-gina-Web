@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>El encanto de La Gomera</title>
+    <link rel="stylesheet" href="../css/web.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Sitios de interés en La Gomera</h1>
+      <nav>
+        <ul>
+          <li>
+            <a href="hoteles.html">Hoteles</a>
+            
+          </li>
+          <li>
+            <a href="Restaurantes.html">Restaurantes</a
+            >
+          </li>
+          <li>
+            <a href="#" onclick="alert('Estamos trabajando en esto para ti')"
+              >Senderismo</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <h2>Lugares que no te puedes perder en tu viaje a La Gomera</h2>
+      <button onclick="ocultarImag()">Ocultar imágenes</button>
+      <button onclick="mostrarImag()">Mostrar imágenes</button>
+
+      <section class="pueblos">
+        <div>
+          <img src="../imag/vallehermoso1.jpeg" alt="Vallehermoso" />
+          <h3>Vallehermoso</h3>
+          <p>
+            Vallehermoso, el gran pueblo con paisajes desde la montaña hasta el
+            mar, un destino fantástico.
+          </p>
+          <a href="vallehermoso.html">Ver más</a>
+        </div>
+
+        <div>
+          <img src="../imag/vallegranrey1.jpeg" alt="Valle Gran Rey" />
+          <h3>Valle Gran Rey</h3>
+          <p>
+            Valle Gran Rey con sus hermosas playas, perfecto para desconectar
+            del ajetreo y disfrutar de paz.
+          </p>
+          <a href="ValleGranRey.html">Ver más</a>
+        </div>
+
+        <div>
+          <img src="../imag/hermigua1.jpg" alt="Hermigua" />
+          <h3>Hermigua</h3>
+          <p>
+            Hermigua es una alfombra verde de laurisilva, palmas y plataneras,
+            teniendo el mejor gofio de Canarias.
+          </p>
+          <a href="Hermigua.html">Ver más</a>
+        </div>
+      </section>
+    </main>
+    <h2>¿Cuántas veces has venido a La Gomera?</h2>
+
+    <p id="valorContador">0</p>
+
+    <button onclick="incrementar()">+1</button>
+    <button onclick="decrementar()">-1</button>
+    <button onclick="resetear()">Reset</button>
+  </body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hoteles</title>
+    <link rel="stylesheet" href="../css/web.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+<h1>Hoteles recomendados en La Gomera</h2>
+    </header>
+    <main>
+<section class="pueblos">
+    <div>
+        <img src="../imag/tecina.jpg" alt="Hotel Jardín Tecina">
+        <h3>Hotel Jardín Tecina</h3>
+        <p>Hotel con vistas al mar, jardines espectaculares y uno de los mejores resorts de Canarias.</p>
+        <button onclick="verInfoHotel('tecina')">Ver información</button>
+    </div>
+
+    <div>
+        <img src="../imag/granrey.jpg" alt="Hotel Gran Rey">
+        <h3>Hotel Gran Rey</h3>
+        <p>Situado frente al mar en Valle Gran Rey, perfecto para relajarse y disfrutar de la playa.</p>
+        <button onclick="verInfoHotel('granrey')">Ver información</button>
+    </div>
+
+    <div>
+        <img src="../imag/bancal.jpg" alt="Hotel Bancal">
+        <h3>Bancal Hotel & Spa</h3>
+        <p>Hotel moderno con spa en San Sebastián, ideal para desconectar.</p>
+        <button onclick="verInfoHotel('bancal')">Ver información</button>
+    </div>
+    </section>
+</main>
+<p id="infoHotel"></p>
+</body>
